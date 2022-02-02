@@ -1,1 +1,2 @@
-# menin-obam
+Welcome to Rahym Seyidov github page!
+Details upcoming...
