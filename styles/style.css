@@ -6,6 +6,10 @@ header {
     margin: 10px;
 }
 
+.gyyanly {
+    font-size: 5vw;
+}
+
 #at {
     background-color: coral;
     flex-grow: 4;
