@@ -1,0 +1,45 @@
+header {
+    background-color: rgb(194, 129, 32);
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+
+#at {
+    background-color: coral;
+    flex-grow: 4;
+}
+#esas-surat {
+    /* background-color: rgb(19, 153, 113); */
+    flex-grow: 3;
+    background-image: url("../images/obansuraty.png");
+    background-size: cover;
+}
+
+#info {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+
+#oba-barada {
+    background-color: crimson;
+    height: 150px;
+    flex-basis: 50vw;
+}
+
+#suratlar {
+    background-color: darkblue;
+    height: 150px;
+    flex-basis: 50vw;
+}
+
+
+
+@media (max-width: 600px) {
+    #esas-surat {
+      display: none;
+    }
+  }
+  
