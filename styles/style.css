@@ -1,50 +1,41 @@
-header {
-    background-color: rgb(194, 129, 32);
-    height: 150px;
-    display: flex;
-    flex-direction: row;
-    margin: 10px;
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes');
+@import url('https://fonts.googleapis.com/css2?family=Signika&display=swap');
+
+.row {
+    margin-bottom: 20px;
+    margin-top: 10px;
 }
 
-.gyyanly {
-    font-size: 5vw;
+#oba-barada, .oba-barada-aydylanlar {
+    background-color: rgb(228, 228, 228);
 }
 
-#at {
-    background-color: coral;
-    flex-grow: 4;
-}
-#esas-surat {
-    /* background-color: rgb(19, 153, 113); */
-    flex-grow: 3;
-    background-image: url("../images/obansuraty.png");
-    background-size: cover;
+#title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    /* font-family: 'Courgette', cursive; */
+    font-family: 'Great Vibes', cursive;
+    /* font-family: 'Italianno', cursive; */
+    color: white;
 }
 
-#info {
-    display: flex;
-    flex-direction: row;
-    margin: 10px;
+.navbar {
+    background-color: #6f42c1;
 }
 
-#oba-barada {
-    background-color: crimson;
-    height: 150px;
-    flex-basis: 50vw;
-    font-size: 25px;
+#suratlar-header {
+    text-align: center;
+    background-color: #6f42c1;
+    color: white;
+    font-family: 'Signika', sans-serif;
 }
 
-#suratlar {
-    background-color: darkblue;
-    height: 150px;
-    flex-basis: 50vw;
+p {
+    font-family: 'Signika', sans-serif;
+    font-size: 1.5rem;
 }
 
-
-
-@media (max-width: 600px) {
-    #esas-surat {
-      display: none;
-    }
-  }
-  
+.avatar {
+    width: 50px; 
+}
