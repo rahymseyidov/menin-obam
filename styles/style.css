@@ -39,3 +39,24 @@ p {
 .avatar {
     width: 50px; 
 }
+
+#map {
+   background-image: linear-gradient(
+  90deg,
+  hsl(261deg 51% 51%) 0%,
+  hsl(264deg 52% 65%) 14%,
+  hsl(267deg 53% 79%) 22%,
+  hsl(268deg 55% 93%) 29%,
+  hsl(300deg 100% 100%) 35%,
+  hsl(300deg 100% 100%) 41%,
+  hsl(300deg 100% 100%) 46%,
+  hsl(0deg 0% 100%) 50%,
+  hsl(300deg 100% 100%) 55%,
+  hsl(300deg 100% 100%) 60%,
+  hsl(300deg 100% 100%) 65%,
+  hsl(268deg 55% 93%) 70%,
+  hsl(267deg 53% 79%) 76%,
+  hsl(264deg 52% 65%) 83%,
+  hsl(261deg 51% 51%) 100%
+);
+}
